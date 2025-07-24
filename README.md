@@ -39,26 +39,13 @@ To make our dual-check strategy computationally efficient, we introduce **Pooled
 
 ---
 
-## 🚀 Setup and Installation
+### \#\# 🚀 Setup and Installation
 
-### Dependencies
+This project is implemented on the **nunchaku** framework and requires it to be installed first.
 
-This project is built upon the **nunchaku** framework. Please follow the installation instructions from the official repository.
+For detailed instructions on setting up the environment, please follow the official guide in the repository below:
 
-1.  **Clone the nunchaku repository:**
-    ```bash
-    git clone [https://github.com/nunchaku-tech/nunchaku.git](https://github.com/nunchaku-tech/nunchaku.git)
-    ```
-
-2.  **Follow the setup guide** provided in the nunchaku repository to install the framework and its dependencies.
-
-### This Repository
-
-After setting up nunchaku, clone this repository:
-```bash
-git clone [https://github.com/Bluear7878/H2-cache-A-Hierarchical-Dual-Stage-Cache.git](https://github.com/Bluear7878/H2-cache-A-Hierarchical-Dual-Stage-Cache.git)
-cd H2-cache-A-Hierarchical-Dual-Stage-Cache
-````
+➡️ [**https://github.com/nunchaku-tech/nunchaku**](https://github.com/nunchaku-tech/nunchaku)
 
 -----
 
