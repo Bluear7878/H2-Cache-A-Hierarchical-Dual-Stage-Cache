@@ -18,8 +18,8 @@ pipeline = FluxPipeline.from_pretrained(
 apply_cache_on_pipe(
     pipeline,
     use_double_fb_cache=True,
-    residual_diff_threshold_multi=0.09,
-    residual_diff_threshold_single=0.12,
+    residual_diff_threshold_multi=0.15,
+    residual_diff_threshold_single=0.22,
 )
 
 image = pipeline(["A cat holding a sign that says hello world"], num_inference_steps=50).images[0]
