@@ -1,0 +1,36 @@
+[tool.isort]
+profile = "black"
+known_first_party = ["nunchaku"]
+line_length = 120
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+
+[tool.ruff]
+line-length = 120
+
+[project]
+dynamic = ["version"]
+name = "nunchaku"
+dependencies = [
+    "diffusers>=0.32.2",
+    "transformers",
+    "accelerate",
+    "sentencepiece",
+    "protobuf",
+    "huggingface_hub",
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = [
+    "setuptools",
+    "torch>=2.5",
+    "wheel",
+    "ninja",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["nunchaku"]
