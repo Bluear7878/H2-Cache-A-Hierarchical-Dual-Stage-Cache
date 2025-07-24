@@ -28,7 +28,7 @@ H2-Cache exploits this separation by applying a **hierarchical, two-stage cachin
 
 ### Functional Separation in Action
 
-Caching the structure stage ($\mathcal{B}_{L1}$) freezes the image's overall layout, while caching the detail stage ($\mathcal{B}_{L2}$) preserves fine textures while allowing the structure to evolve. This demonstrates the clear functional separation our method leverages.
+Caching the structure stage (B<sub>L1</sub>) freezes the image's overall layout, while caching the detail stage (B<sub>L2</sub>) preserves fine textures while allowing the structure to evolve. This demonstrates the clear functional separation our method leverages.
 
 ![Functional Separation](assets/Block_caching.png)
 *Figure 2: Qualitative analysis of H2-cache's hierarchical mechanism.*
