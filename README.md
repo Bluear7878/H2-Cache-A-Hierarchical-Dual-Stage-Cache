@@ -1,6 +1,6 @@
 # H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models
 
-[![Paper](https://img.shields.io/badge/paper-arxiv.2407.XXXXX-red)]([https://arxiv.org/abs/2407.XXXXX](http://arxiv.org/abs/2510.27171)) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Paper](https://img.shields.io/badge/paper-arxiv.2407.XXXXX-red)]([https://arxiv.org/abs/2510.27171](http://arxiv.org/abs/2510.27171)) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official implementation of the paper: **H2-Cache: A Novel Hierarchical Dual-Stage Cache for High-Performance Acceleration of Generative Diffusion Models**.
 
